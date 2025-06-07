@@ -1,0 +1,11 @@
+server.js ma app.js import xa 
+app.js ma express ko fuction xa sabai
+
+process.env bata port run
+cloudinary ma secrete key 
+
+
+app.js ma --> app.use euta middleware cors use garera fe ra be connect garna kun kun frontend bata connect garna dakinxa 
+
+
+

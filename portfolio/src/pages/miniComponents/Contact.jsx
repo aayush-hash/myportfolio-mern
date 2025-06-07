@@ -17,7 +17,7 @@ const Contact = () => {
     setLoading(true);
     await axios
       .post(
-        "http://localhost:4000/api/v1/message/send",
+        "https://myportfolio-mern-fqvv.onrender.com/api/v1/message/send",
         { senderName, email, subject, message }, // Include email
         {
           withCredentials: true,

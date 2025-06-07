@@ -20,7 +20,7 @@ const ProjectView = () => {
   useEffect(() => {
     const getProject = async () => {
       try {
-        const res = await axios.get(`http://localhost:4000/api/v1/project/get/${id}`, {
+        const res = await axios.get(`https://myportfolio-mern-fqvv.onrender.com/api/v1/project/get/${id}`, {
           withCredentials: true,
         });
         const project = res.data.project;

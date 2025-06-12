@@ -23,7 +23,7 @@ app.use(
     origin: [
       process.env.PORTFOLIO_URL.trim(),
       process.env.DASHBOARD_URL.trim(),
-      'http://localhost:5173', // Frontend development
+      'https://aayoushportfolio.netlify.app/', // Frontend development
     ],
     methods: ['GET', 'POST', 'DELETE', 'PUT'],
     credentials: true, // Allow cookies
